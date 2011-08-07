@@ -139,5 +139,15 @@ namespace HoitPolloi.Test
             // Assert
             Assert.That(result, Is.EqualTo("My long st"));
         }
+
+        [Test]
+        public void TestNegativeTruncateThrows()
+        {
+            // Arrange
+            string myString = "Any string";
+
+            // Act / Assert
+            Assert.That(() => myString.Truncate(-1), Throws.InstanceOf<ArgumentOutOfRangeException>());
+        }
     }
 }
