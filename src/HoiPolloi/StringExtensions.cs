@@ -4,12 +4,9 @@ namespace HoiPolloi
 {
     public static class StringExtensions
     {
-        public static string Truncate(this string value, int maxLength)
+        public static string Truncate(this string value, int maxChars)
         {
-            if ((!String.IsNullOrEmpty(value)) && (value.Length > maxLength))
-                return value.Substring(0, maxLength);
-
-            return value;
+            return StringHelper.Truncate(value, maxChars);
         }
     }
 }
