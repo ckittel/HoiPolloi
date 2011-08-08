@@ -1,7 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
 
 namespace HoiPolloi.Collections
 {
@@ -12,6 +11,11 @@ namespace HoiPolloi.Collections
         {
             foreach (var item in items)
                 action(item);
+        }
+
+        public static bool IsNullOrEmpty<T>(this IEnumerable<T> list)
+        {
+            return (list == null) || (!list.Any());
         }
 
     }
