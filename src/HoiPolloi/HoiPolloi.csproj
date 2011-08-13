@@ -47,10 +47,14 @@
   <ItemGroup>
     <Compile Include="Collections\EnumerableExtensions.cs" />
     <Compile Include="Collections\KeyValuePair.cs" />
+    <Compile Include="DateTimeExtensions.cs" />
+    <Compile Include="DateTimeHelper.cs" />
     <Compile Include="Drawing\ColorExtensions.cs" />
     <Compile Include="Drawing\ImageExtensions.cs" />
+    <Compile Include="Guard.cs" />
     <Compile Include="IdNamePair.cs" />
     <Compile Include="Collections\DictionaryExtensions.cs" />
+    <Compile Include="IntegerExtensions.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="SortDirection.cs" />
     <Compile Include="StringExtensions.cs" />
