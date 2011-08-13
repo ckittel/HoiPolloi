@@ -10,6 +10,16 @@ namespace HoiPolloi
     {
 
         /// <summary>
+        /// Check that the value of the string is not null or empty, otherwise throw.
+        /// </summary>
+        public static void EnsureStringIsNotNullOrEmpty(string obj, string paramName)
+        {
+            EnsureIsNotNull(obj, paramName);
+            if (String.IsNullOrEmpty(obj))
+                throw new ArgumentException("Value cannot be an empty string", paramName);
+        }
+
+        /// <summary>
         /// Check that the value is not null, otherwise throw <see cref="ArgumentNullException" />.
         /// </summary>
         public static void EnsureIsNotNull(object obj, string paramName)

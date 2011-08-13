@@ -5,6 +5,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoiPolloi", "HoiPolloi\HoiP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoitPolloi.Test", "HoitPolloi.Test\HoitPolloi.Test.csproj", "{8C4BE4DA-1769-497D-A687-3FFF71077B01}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HoiPolloi.Windows.Forms", "HoiPolloi.Windows.Forms\HoiPolloi.Windows.Forms.csproj", "{A03C588D-A27D-486D-A3BB-337890ECB0BC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +21,10 @@ Global
 		{8C4BE4DA-1769-497D-A687-3FFF71077B01}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{8C4BE4DA-1769-497D-A687-3FFF71077B01}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{8C4BE4DA-1769-497D-A687-3FFF71077B01}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A03C588D-A27D-486D-A3BB-337890ECB0BC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A03C588D-A27D-486D-A3BB-337890ECB0BC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A03C588D-A27D-486D-A3BB-337890ECB0BC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A03C588D-A27D-486D-A3BB-337890ECB0BC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
