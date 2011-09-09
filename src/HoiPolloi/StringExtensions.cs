@@ -21,5 +21,10 @@ namespace HoiPolloi
 
             return value.All(Char.IsUpper);
         }
+
+        public static bool Contains(this string str, string value, StringComparison comparisonType)
+        {
+            return str.IndexOf(value, comparisonType) >= 0;
+        }
     }
 }
